@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sshakuf.board.board.GameSelectActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ארבע בשורהֿ"
+        android:id="@+id/btn4InRow"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הגדרות"
+        android:id="@+id/btnSetup"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnFallGame"
+        android:layout_marginBottom="23dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="משחק זיכרון"
+        android:id="@+id/btnMemoryGame"
+        android:layout_below="@+id/btn4InRow"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="נגע בצבע"
+        android:id="@+id/btnFallGame"
+        android:layout_below="@+id/btnMemoryGame"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
